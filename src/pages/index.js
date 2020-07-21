@@ -9,10 +9,10 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+import spray from '../assets/images/body_image1-min.jpg';
+import bodyImage1 from '../assets/images/body_image1-min.jpg';
+import bodyImage2 from '../assets/images/body_image2-min.png';
+import bodyImage3 from '../assets/images/body_image3-min.png';
 
 const IndexPage = () => (
   <Layout>
@@ -38,18 +38,13 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 className="text-white mb-4">Protect yourself from COVID19</h2>
             <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
+              VBP Sanitizing eliminates 99.99% of virus, bacteria, and germs. Non-toxic and lab-proven, we guarantee your safety and health.
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        {/* <img src={spray} className="img-fluid" alt="" /> */}
       </div>
     </section>
 
@@ -57,15 +52,14 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+            <img className="img-fluid mb-3 mb-lg-0" src={bodyImage3} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>What We Do..</h4>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+                South Korea  was critically successful in controlling COVID19. We imported Korea’s exemplary sanitization practices and use the bestselling Korean sanitization product , “Simply Water”, approved by the FDA  and WHO. 
+Our sanitization process is thorough. We sanitize high-contact objects like kitchen utensils using UV light, then finish with Phytoncide, which kills harmful virus, germs, and bacteria and leaves a fresh scent. Our service is guaranteed to eliminate 99.99% of virus, germs, and bacteria, and to protect you from COVID19. We provide superior practice to meet our customer’s satisfaction.
               </p>
             </div>
           </div>
@@ -73,7 +67,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={bodyImage1} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -93,7 +87,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={bodyImage2} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">

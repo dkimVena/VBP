@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
+import logo from '../assets/images/logo.png';
+
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -40,8 +42,9 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
+          <a className="navbar-brand" href="https://www.vbpsanitizing.com">
+            {/* {config.siteTitle} */}
+            <img src={logo} className="navbar-brand-logo img-fluid" alt="" />
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}

@@ -76,7 +76,7 @@ const IndexPage = () => (
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-left">
+                <div className="project-text w-100 my-auto text-left">
                   <h4 className="text-white">Simply Water</h4>
                   <p className="mb-0 text-white-50">
                   Tested to remove 99% of viruses, bacteria and odours!
@@ -98,7 +98,7 @@ const IndexPage = () => (
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
-                <div className="project-text w-100 my-auto text-center text-lg-right">
+                <div className="project-text w-100 my-auto text-left text-lg-right">
                   <h4 className="text-white">What is Akaline Water?</h4>
                   <p className="mb-0 text-white-50">
                     When water is electrolyzed with an anode and cathode, alkaline water is formed in the cathode. Alkaline water formed in the cathode contains many anions. Alkaline water's main functions are disinfecting and cleansing. When akaline water encounters other substances, it pulls the cations, and their repulsive force pushes away the debris on the surface, resulting in a cleansing effect. Also, the charged anions destroy the nucleus of the germs, which then lose their power and are considered to be disinfected.

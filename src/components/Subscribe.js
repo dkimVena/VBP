@@ -8,30 +8,7 @@ export default function Subscribe() {
           <div className="col-md-10 col-lg-8 mx-auto text-center">
             <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 className="text-white mb-5">Contact Us!</h2>
-            {/* <form className="contactForm" name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
-              <input type="hidden" name="bot-field" />
-                <div className="field half first">
-                  <label for="name">Name</label>
-                  <input type="text" name="name" id="name" required="" />
-                </div>
-                <div className="field half">
-                  <label for="email">Email</label>
-                  <input type="text" name="email" id="email" required="" />
-                </div>
-                <div className="field">
-                  <label for="message">Message</label>
-                  <textarea name="message" id="message" rows="6" required=""></textarea>
-                </div>
-                <ul className="actions">
-                  <li>
-                    <input type="submit" className="special" value="Send Message" />
-                  </li>
-                  <li>
-                    <input type="reset" value="Clear" />
-                  </li>
-                </ul>
-              </form> */}
-            <form className="form-inline d-flex">
+            <form className="form-inline d-flex" method="POST" action="https://formspree.io/VBPsanitizing@gmail.com">
               <input
                 type="text"
                 className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"

@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-black small text-center text-white-50">
       <div className="container">
-        Copyright &copy; Gatsby-starter-grayscale 2019
+        &copy; <a href="https://www.linkedin.com/in/inkoog-kim/">DAVID KIM</a>. DESIGN REFERENCE: Gatsby-starter-grayscale. 2020
       </div>
     </footer>
   );

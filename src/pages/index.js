@@ -8,11 +8,13 @@ import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
+import Video from '../components/Video';
 
 import spray from '../assets/images/body_image1-min.jpg';
-import bodyImage1 from '../assets/images/body_image1-min.jpg';
-import bodyImage2 from '../assets/images/body_image2-min.png';
+import bodyImage1 from '../assets/images/simply_water.png';
+import bodyImage2 from '../assets/images/certification.png';
 import bodyImage3 from '../assets/images/body_image3-min.png';
+
 
 const IndexPage = () => (
   <Layout>
@@ -44,22 +46,24 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        {/* <img src={spray} className="img-fluid" alt="" /> */}
       </div>
     </section>
 
     <section id="projects" className="projects-section bg-light">
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bodyImage3} alt="" />
+          <div className="col-xl-8 col-lg-7 video-container">
+          <Video
+            videoSrcURL="https://www.youtube.com/embed/-MVnFiK1OWQ"
+            videoTitle="VBP Sanitizing"
+          />
+            {/* <img className="img-fluid mb-3 mb-lg-0" src={bodyImage3} alt="" /> */}
           </div>
           <div className="col-xl-4 col-lg-5">
-            <div className="featured-text text-center text-lg-left">
+            <div className="featured-text text-left">
               <h4>What We Do..</h4>
               <p className="text-black-50 mb-0">
-                South Korea  was critically successful in controlling COVID19. We imported Korea’s exemplary sanitization practices and use the bestselling Korean sanitization product , “Simply Water”, approved by the FDA  and WHO. 
-Our sanitization process is thorough. We sanitize high-contact objects like kitchen utensils using UV light, then finish with Phytoncide, which kills harmful virus, germs, and bacteria and leaves a fresh scent. Our service is guaranteed to eliminate 99.99% of virus, germs, and bacteria, and to protect you from COVID19. We provide superior practice to meet our customer’s satisfaction.
+              VBP has adopted sanitization practices from South Korea to eliminate 99.99% of germs, bacteria, and viruses. First, we electrostatic spray high touch surfaces and fog hard-to-reach areas using FDA and WHO-approved disinfectant imported from South Korea. This disinfectant is hospital-grade and food-safe to guarantee a thorough clean and ensure customer safety. Second, we disinfect high touch objects using UV light. Third, we finish the sanitization process by spraying affected areas with Phytoncide, a natural anti-microbial and deodorizer.
               </p>
             </div>
           </div>
@@ -73,10 +77,12 @@ Our sanitization process is thorough. We sanitize high-contact objects like kitc
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">Simply Water</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                  Tested to remove 99% of viruses, bacteria and odours!
+                  ​FDA Approved Sanitizing Power!
+                  Alkaline Anion Disinfectant Sanitizer Spray!
+                  Eliminates viruses without the use of harsh chemicals.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -93,11 +99,9 @@ Our sanitization process is thorough. We sanitize high-contact objects like kitc
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">What is Akaline Water?</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                    When water is electrolyzed with an anode and cathode, alkaline water is formed in the cathode. Alkaline water formed in the cathode contains many anions. Alkaline water's main functions are disinfecting and cleansing. When akaline water encounters other substances, it pulls the cations, and their repulsive force pushes away the debris on the surface, resulting in a cleansing effect. Also, the charged anions destroy the nucleus of the germs, which then lose their power and are considered to be disinfected.
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>

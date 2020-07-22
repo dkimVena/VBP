@@ -1,12 +1,12 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Grayscale', // <title>
-  manifestName: 'Grayscale',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'VBP Sanitizing', // <title>
+  manifestName: 'VBP',
+  manifestShortName: 'VBP', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/images/logo.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'VBP Sanitizing',
   subHeading: 'Virus Block and Protect',
@@ -14,12 +14,7 @@ module.exports = {
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      icon: 'fa-linkedin-in',
+      icon: 'fa-instagram',
       name: 'Linkedin',
       url: 'https://linkedin.com/in/theanubhav/',
     },
@@ -34,7 +29,8 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'VBPsanitizing@gmail.com',
+  phone: '647-492-3691',
+  operation1: 'Monday to Fridays: 09:00-18:00 EST',
+  operation2: 'Saturday & Sunday: 10:00-15:00 EST',
 };

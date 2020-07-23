@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/logo.png',
-  pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/vbp-sanitizing/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'VBP Sanitizing',
   subHeading: 'Virus Block and Protect',
 

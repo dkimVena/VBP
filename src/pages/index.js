@@ -29,7 +29,12 @@ const IndexPage = () => (
           </h2>
           <Scroll type="id" element="about">
             <a href="#about" className="btn btn-primary">
-              About
+              Learn More
+            </a>
+          </Scroll>
+          <Scroll type="id" element="signup">
+            <a href="#signup" className="btn btn-primary">
+              Contact Us
             </a>
           </Scroll>
         </div>

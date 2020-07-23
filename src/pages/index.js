@@ -28,7 +28,7 @@ const IndexPage = () => (
             {config.subHeading}
           </h2>
           <Scroll type="id" element="about">
-            <a href="#about" className="btn btn-primary">
+            <a href="#about" className="btn btn-primary mr-5">
               Learn More
             </a>
           </Scroll>
@@ -74,7 +74,7 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div id="products" className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
             <img className="img-fluid" src={bodyImage1} alt="" />
           </div>

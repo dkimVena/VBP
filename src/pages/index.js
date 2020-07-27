@@ -15,6 +15,11 @@ import bodyImage1 from '../assets/images/simply_water.png';
 import bodyImage2 from '../assets/images/certification.png';
 import bodyImage3 from '../assets/images/body_image3-min.png';
 
+import UvIcon from '../assets/icons/uv-protection.svg';
+import CleanIcon from '../assets/icons/clean.svg';
+import HealthCanadaIcon from '../assets/icons/health-canada.svg';
+import DisinfectantIcon from '../assets/icons/disinfectant.svg';
+
 
 const IndexPage = () => (
   <Layout>
@@ -28,7 +33,7 @@ const IndexPage = () => (
             {config.subHeading}
           </h2>
           <Scroll type="id" element="about">
-            <a href="#about" className="btn btn-primary mr-5">
+            <a href="#about" className="mr-5 btn btn-primary">
               Learn More
             </a>
           </Scroll>
@@ -49,6 +54,24 @@ const IndexPage = () => (
             <p className="text-white-50">
               VBP Sanitizing eliminates 99.99% of virus, bacteria, and germs. Non-toxic and lab-proven, we guarantee your safety and health.
             </p>
+          </div>
+        </div>
+        <div className="row descriptions">
+          <div className="col-md-3 col-sm-12">
+            <UvIcon className="descriptionIcon" />
+            <p className="descriptionText">UV light Sterlization of high touch objects</p>
+          </div>
+          <div className="col-md-3 col-sm-12">
+            <CleanIcon className="descriptionIcon" />
+            <p className="descriptionText">Hospital-grade and food safe</p>
+          </div>
+          <div className="col-md-3 col-sm-12">
+            <HealthCanadaIcon className="descriptionIcon" />
+            <p className="descriptionText">Health Canada and Public Health Ontario gudied Prodedure</p>
+          </div>
+          <div className="col-md-3 col-sm-12">
+            <DisinfectantIcon className="descriptionIcon" />
+            <p className="descriptionText">Deep cleaning with Phytoncide fogging</p>
           </div>
         </div>
       </div>

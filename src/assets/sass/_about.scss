@@ -20,4 +20,16 @@
   p {
     margin-bottom: 5rem;
   }
+
+  .descriptions {
+    .descriptionIcon {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .descriptionText {
+      color: rgba(255, 255, 255, 0.6);
+      margin-top: 30px;
+    }
+  }
 }

@@ -32,16 +32,18 @@ const IndexPage = () => (
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
-          <Scroll type="id" element="about">
-            <a href="#about" className="mr-5 btn btn-primary">
-              Learn More
-            </a>
-          </Scroll>
-          <Scroll type="id" element="signup">
-            <a href="#signup" className="btn btn-primary">
-              Contact Us
-            </a>
-          </Scroll>
+          <div className="masthead-buttons">
+            <Scroll type="id" element="about">
+              <a href="#about" className="masthead-button btn btn-primary">
+                Learn More
+              </a>
+            </Scroll>
+            <Scroll type="id" element="signup">
+              <a href="#signup" className="masthead-button btn btn-primary">
+                Contact Us
+              </a>
+            </Scroll>
+          </div>
         </div>
       </div>
     </header>

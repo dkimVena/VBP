@@ -1,13 +1,13 @@
 module.exports = {
-  siteTitle: 'VBP Sanitizing', // <title>
+  siteTitle: 'VBP Sanitizing',
   manifestName: 'VBP',
-  manifestShortName: 'VBP', // max 12 characters
+  manifestShortName: 'VBP', 
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/logo.png',
-  pathPrefix: `/vbp-sanitizing/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/vbp-sanitizing/`, 
   heading: 'VBP Sanitizing',
   subHeading: 'Virus Block and Protect',
 

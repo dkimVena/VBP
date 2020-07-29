@@ -19,6 +19,11 @@ import UvIcon from '../assets/icons/uv-protection.svg';
 import CleanIcon from '../assets/icons/clean.svg';
 import HealthCanadaIcon from '../assets/icons/health-canada.svg';
 import DisinfectantIcon from '../assets/icons/disinfectant.svg';
+import CallIcon from '../assets/icons/call.svg';
+import CalendarIcon from '../assets/icons/calendar.svg';
+import SmileIcon from '../assets/icons/smile.svg';
+
+import logo from '../assets/images/logo.png';
 
 
 const IndexPage = () => (
@@ -69,7 +74,7 @@ const IndexPage = () => (
           </div>
           <div className="col-md-3 col-sm-12">
             <HealthCanadaIcon className="descriptionIcon" />
-            <p className="descriptionText">Health Canada and Public Health Ontario gudied Prodedure</p>
+            <p className="descriptionText">Health Canada and Public Health Ontario guided Prodedure</p>
           </div>
           <div className="col-md-3 col-sm-12">
             <DisinfectantIcon className="descriptionIcon" />
@@ -135,6 +140,31 @@ const IndexPage = () => (
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="steps-section" id="steps">
+          <div className="row">
+            <h2>How it works - Simple as 1, 2, 3</h2>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 col-md-12 steps-image">
+              <img src={logo} className="img-fluid" alt="" />
+            </div>
+            <div className="col-lg-6 col-md-12 steps-description">
+              <div className="works-step">
+                <CallIcon className="steps-icon" />
+                <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+              </div>
+              <div className="works-step">
+                <CalendarIcon className="steps-icon" />
+                <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+              </div>
+              <div className="works-step">
+                <SmileIcon className="steps-icon" />
+                <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
               </div>
             </div>
           </div>

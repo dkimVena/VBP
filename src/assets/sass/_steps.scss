@@ -1,0 +1,55 @@
+.steps-section {
+  margin-top: 130px;
+  h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 65px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 100%;
+
+    &:after {
+      display: block;
+      height: 2px;
+      background-color: #64a19d;
+      content: " ";
+      width: 100px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+  }
+
+  .steps-icon {
+    display: inline-block;
+    width: 50px;
+  }
+
+  .works-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+
+    p {
+      margin: 0 0 0 20px;
+    }
+  }
+
+  .steps-description {
+    margin: auto;
+  }
+
+  .steps-image {
+    text-align: center;
+    margin-bottom: 50px;
+
+    @media (min-width: 992px) {
+      margin-bottom: 0;
+    }
+    
+    img {
+      width: 50%;
+    }
+  }
+}

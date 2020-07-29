@@ -156,15 +156,15 @@ const IndexPage = () => (
             <div className="col-lg-6 col-md-12 steps-description">
               <div className="works-step">
                 <CallIcon className="steps-icon" />
-                <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+                <p>Get an estimate by Phone or Online</p>
               </div>
               <div className="works-step">
                 <CalendarIcon className="steps-icon" />
-                <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+                <p>Schedule service at your convenience</p>
               </div>
               <div className="works-step">
                 <SmileIcon className="steps-icon" />
-                <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
+                <p>Relax and let us do the rest</p>
               </div>
             </div>
           </div>

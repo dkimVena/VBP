@@ -34,4 +34,15 @@ module.exports = {
   instagram: 'instagram.com/vbpsanitizing_',
   operation1: 'Monday to Fridays: 09:00-18:00 EST',
   operation2: 'Saturday & Sunday: 10:00-15:00 EST',
+  descriptions: [
+    'South Korean COVID19 protection technology',
+    '99.99% Germs eliminated',
+    '100% Non-Toxic and safe on food',
+    'Lab proven Green Technology',
+    'Sterilization using UV light',
+    'Advanced fogging technology that covers unreachable spaces',
+    'No rinse required',
+    'Use Phytoncide to eliminate harmful bacterias and allergens',
+    'Satisfaction guaranteed'
+  ]
 };

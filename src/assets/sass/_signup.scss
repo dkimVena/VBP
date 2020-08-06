@@ -2,7 +2,7 @@
   padding: 10rem 0;
   background: linear-gradient(
       to bottom,
-      #{fade-out($black, 0.7)} 0%,
+      #{fade-out($black, 0.1)} 0%,
       #{fade-out($black, 0.3)} 75%,
       $black 100%
     ),
@@ -25,5 +25,28 @@
       margin-bottom: 15px !important;
       width: 100%;
     }
+  }
+
+  .signup-description {
+    color: white;
+    margin-top: 110px;
+    list-style: none;
+    margin-bottom: 90px;
+
+    @media (min-width: 992px) {
+      margin-bottom: 0;
+    }
+
+    li {
+      line-height: 2.5;
+
+      .fa-check {
+        color: #64a19d;
+      }
+    }
+  }
+
+  .signup-contact {
+    width: 90%;
   }
 }

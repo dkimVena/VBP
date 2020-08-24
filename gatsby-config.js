@@ -28,6 +28,12 @@ module.exports = {
           include: /icons/ // See below to configure properly
         }
       }
+    },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none"
+      }
     }
   ],
 };

@@ -27,24 +27,24 @@ export default function Subscribe() {
               <div className="mx-auto text-center signup-contact">
                 <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
                 <h2 className="text-white mb-5">Contact Us!</h2>
-                <form className="form-inline d-flex" method="POST" action="https://formspree.io/VBPsanitizing@gmail.com">
+                <form className="form-inline d-flex" method="post" action="https://formspree.io/VBPsanitizing@gmail.com" accept-charset="utf-8">
                   <input
                     type="text"
-                    name="inputName"
+                    name="name"
                     className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
                     id="inputName"
                     placeholder="Enter name..."
                   />
                   <input
                       type="email"
-                      name="inputEmail"
+                      name="email"
                       className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
                       id="inputEmail"
                       placeholder="Enter email address..."
                     />
                     <textarea
                       className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
-                      name="inputMessage"
+                      name="message"
                       id="inputMessage"
                       placeholder="Enter message..."
                       rows="5"

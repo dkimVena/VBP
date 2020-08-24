@@ -30,18 +30,21 @@ export default function Subscribe() {
                 <form className="form-inline d-flex" method="POST" action="https://formspree.io/VBPsanitizing@gmail.com">
                   <input
                     type="text"
+                    name="inputName"
                     className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
                     id="inputName"
                     placeholder="Enter name..."
                   />
                   <input
                       type="email"
+                      name="inputEmail"
                       className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
                       id="inputEmail"
                       placeholder="Enter email address..."
                     />
                     <textarea
                       className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
+                      name="inputMessage"
                       id="inputMessage"
                       placeholder="Enter message..."
                       rows="5"
